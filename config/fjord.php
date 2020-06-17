@@ -116,12 +116,12 @@ return [
 
     'assets' => [
         // Set path to the app.js file.
-        'js' => null,
+        'js' => '/fjord/js/app.js',
         'css' => [
+            '/public/fjord/css/app.css',
             // Put path to css files that should be included here...
         ],
     ],
-
 
     /*
     |--------------------------------------------------------------------------

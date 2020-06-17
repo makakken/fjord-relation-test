@@ -32,7 +32,7 @@ class CreatePartnersTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->text('text');
-            $table->unsignedBigInteger('group_id');
+            $table->unsignedBigInteger('group_id')->nullable();
             $table->string('slug')->nullable();
             $table->boolean('active')->default(true);
             $table->timestamps();

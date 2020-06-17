@@ -42,6 +42,6 @@ class Partner extends Model
     }
 
     public function group() {
-        $this->belongsTo('\App\Models\Group');
+        return $this->belongsTo('\App\Models\Group');
     }
 }

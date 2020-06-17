@@ -1,3 +1,5 @@
+
+require('fjord/resources/js/mix.js');
 const mix = require('laravel-mix');
 
 /*
