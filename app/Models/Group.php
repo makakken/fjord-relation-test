@@ -42,7 +42,7 @@ class Group extends Model
     }
 
     public function partners() {
-        $this->hasMany('\App\Models\Partner');
+        return $this->hasMany('\App\Models\Partner');
     }
 
 }
